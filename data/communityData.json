@@ -1,0 +1,170 @@
+[
+  {
+      "profileImage": "./images/user.svg",
+      "username": "user1",
+      "postDate": "2024-06-17",
+      "content": "오늘 애플 주식이 크게 올랐네요!",
+      "likes": 10,
+      "comments": [
+          {
+              "profileImage": "./images/user.svg",
+              "username": "user2",
+              "commentDate": "2024-06-17",
+              "content": "그러게요, 저도 깜짝 놀랐어요!"
+          },
+          {
+              "profileImage": "./images/user.svg",
+              "username": "user3",
+              "commentDate": "2024-06-17",
+              "content": "저는 미리 사둬서 수익을 봤습니다."
+          }
+      ]
+  },
+  {
+      "profileImage": "./images/user.svg",
+      "username": "user2",
+      "postDate": "2024-06-18",
+      "content": "테슬라 주식은 어떻게 생각하세요?",
+      "likes": 5,
+      "comments": [
+          {
+              "profileImage": "./images/user.svg",
+              "username": "user3",
+              "commentDate": "2024-06-18",
+              "content": "테슬라는 항상 변동성이 크죠."
+          },
+          {
+              "profileImage": "./images/user.svg",
+              "username": "user4",
+              "commentDate": "2024-06-18",
+              "content": "저는 장기적으로 봅니다."
+          }
+      ]
+  },
+  {
+      "profileImage": "./images/user.svg",
+      "username": "user3",
+      "postDate": "2024-06-19",
+      "content": "아마존 주식이 계속 하락 중인데, 매수할 시기일까요?",
+      "likes": 8,
+      "comments": [
+          {
+              "profileImage": "./images/user.svg",
+              "username": "user4",
+              "commentDate": "2024-06-19",
+              "content": "저는 아직 관망 중입니다."
+          },
+          {
+              "profileImage": "./images/user.svg",
+              "username": "user5",
+              "commentDate": "2024-06-19",
+              "content": "저는 지금이 기회라고 생각해요."
+          }
+      ]
+  },
+  {
+      "profileImage": "./images/user.svg",
+      "username": "user4",
+      "postDate": "2024-06-20",
+      "content": "구글 주식이 안정적이라 좋네요!",
+      "likes": 12,
+      "comments": [
+          {
+              "profileImage": "./images/user.svg",
+              "username": "user5",
+              "commentDate": "2024-06-20",
+              "content": "저도 같은 생각입니다."
+          },
+          {
+              "profileImage": "./images/user.svg",
+              "username": "user6",
+              "commentDate": "2024-06-20",
+              "content": "구글은 항상 믿고 투자할 수 있죠."
+          }
+      ]
+  },
+  {
+      "profileImage": "./images/user.svg",
+      "username": "user5",
+      "postDate": "2024-06-21",
+      "content": "페이스북 주식이 최근에 많이 올랐어요. 매도할까요?",
+      "likes": 7,
+      "comments": [
+          {
+              "profileImage": "./images/user.svg",
+              "username": "user6",
+              "commentDate": "2024-06-21",
+              "content": "조금 더 지켜보는 게 좋을 것 같아요."
+          },
+          {
+              "profileImage": "./images/user.svg",
+              "username": "user7",
+              "commentDate": "2024-06-21",
+              "content": "저는 일부 매도했습니다."
+          }
+      ]
+  },
+  {
+      "profileImage": "./images/user.svg",
+      "username": "user6",
+      "postDate": "2024-06-22",
+      "content": "넷플릭스 주식이 아직도 유망할까요?",
+      "likes": 9,
+      "comments": [
+          {
+              "profileImage": "./images/user.svg",
+              "username": "user7",
+              "commentDate": "2024-06-22",
+              "content": "콘텐츠가 좋으니 계속 오를 것 같아요."
+          },
+          {
+              "profileImage": "./images/user.svg",
+              "username": "user8",
+              "commentDate": "2024-06-22",
+              "content": "경쟁이 심해져서 조금 불안합니다."
+          }
+      ]
+  },
+  {
+      "profileImage": "./images/user.svg",
+      "username": "user7",
+      "postDate": "2024-06-23",
+      "content": "마이크로소프트 주식, 계속 보유해도 될까요?",
+      "likes": 11,
+      "comments": [
+          {
+              "profileImage": "./images/user.svg",
+              "username": "user8",
+              "commentDate": "2024-06-23",
+              "content": "마이크로소프트는 안정적이라 괜찮을 것 같아요."
+          },
+          {
+              "profileImage": "./images/user.svg",
+              "username": "user1",
+              "commentDate": "2024-06-23",
+              "content": "저도 계속 보유 중입니다."
+          }
+      ]
+  },
+  {
+      "profileImage": "./images/user.svg",
+      "username": "user8",
+      "postDate": "2024-06-24",
+      "content": "엔비디아 주식이 엄청 올랐네요! 더 오를까요?",
+      "likes": 6,
+      "comments": [
+          {
+              "profileImage": "./images/user.svg",
+              "username": "user1",
+              "commentDate": "2024-06-24",
+              "content": "AI와 자율주행 기술 덕분에 더 오를 것 같아요."
+          },
+          {
+              "profileImage": "./images/user.svg",
+              "username": "user2",
+              "commentDate": "2024-06-24",
+              "content": "저는 지금 팔고 있습니다."
+          }
+      ]
+  }
+]

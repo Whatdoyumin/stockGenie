@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>투자 시뮬레이션</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/simulation.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="main.html"><img src="./images/logo.svg" alt="로고"></a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="guide.html">투자 가이드</a></li>
+            <li><a href="simulation.html">투자 연습</a></li>
+            <li><a href="community.html">커뮤니티</a></li>
+        </ul>
+    </nav>
+    </header>
+    <div class="simulContainer">
+        <h1>주식 투자 연습</h1>
+        <div class="initialCapitalContainer">
+            <label for="initialCapitalInput">초기 자금 :</label>
+            <input type="number" id="initialCapitalInput" step="any" placeholder="금액(원)을 입력하세요.">
+            <button id="setInitialCapitalButton">설정</button>
+        </div>
+        
+       <div class="resultContainer">
+            <div id="transactions"></div>
+            <div class="sideResultContainer">
+                <div class="addResult"></div>
+                <div class="addOrFinalContainer">
+                    <div class="btnContainer">
+                        <div><button id="addTransactionButton" style="display: none;">+ 회차 추가</button></div>
+                        <div><button id="resultButton" style="display: none;">종료</button></div>
+                    </div>
+                </div>
+            </div>
+       </div>
+       <div>
+            <pre id="finalResult"></pre>
+       </div>
+    </div>
+
+    <!-- Axios CDN 포함 -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <!-- JavaScript 파일 포함 -->
+    <script src="./js/Simulation.js"></script>
+</body>
+</html>

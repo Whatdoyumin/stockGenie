@@ -1,0 +1,56 @@
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+}
+
+p {
+  font-size: 18px;
+}
+
+.landingImg {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.landingImg > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+section {
+  width: 100%;
+}
+
+.intro, .features, .testimonials {
+  margin-bottom: 2em;
+}
+
+.feature, .testimonial {
+  border: 1px solid #ddd;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+.feature h3, .testimonial p {
+  margin: 0;
+}
+
+.feature a {
+  display: block;
+  margin-top: 0.5em;
+  text-decoration: none;
+  color: #223CB5;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #223CB5;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
